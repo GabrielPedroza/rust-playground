@@ -1,8 +1,14 @@
 mod arrays;
+mod tuples;
 mod user;
 fn main() {
-    arrays::print_odd();
+    tuples::user_tuple();
 }
+
+// *************************
+// *** Filename: arrays.rs *
+// *************************
+// arrays::print_odd();
 
 // *************************
 // *** Filename: user.rs ***

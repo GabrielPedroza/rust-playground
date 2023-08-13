@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn print_odd() {
     let array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     let mut _arr_idx = 0; // _ is a throwaway variable
