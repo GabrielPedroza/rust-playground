@@ -33,6 +33,7 @@ pub fn print_odd() {
 
     //     println!("The value of the array at index {} is {}", arr_idx, val);
     // }
+
     for (idx, val) in array.iter().enumerate() {
         if val % 2 == 0 {
             continue;
