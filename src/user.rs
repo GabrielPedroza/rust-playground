@@ -1,3 +1,5 @@
+#![allow(dead_code)] // allow dead code in this file
+
 use std::io;
 
 pub fn get_age() -> u32 {
