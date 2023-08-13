@@ -13,7 +13,6 @@ pub fn get_age() -> u32 {
                     continue;
                 }
 
-                user_can_drink(age);
                 return age;
             }
             Err(_) => {
