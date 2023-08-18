@@ -2,9 +2,14 @@ mod arrays;
 mod string;
 mod tuples;
 mod user;
+mod type_casting;
 fn main() {
-    string::string();
+    type_casting::type_cast();
 }
+// *************************
+// *** Filename: tuples.rs *
+// *************************
+// string::string();
 
 // *************************
 // *** Filename: tuples.rs *
