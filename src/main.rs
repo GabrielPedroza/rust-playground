@@ -1,9 +1,15 @@
 mod arrays;
+mod string;
 mod tuples;
 mod user;
 fn main() {
-    tuples::user_tuple();
+    string::string();
 }
+
+// *************************
+// *** Filename: tuples.rs *
+// *************************
+// tuples::user_tuple();
 
 // *************************
 // *** Filename: arrays.rs *
