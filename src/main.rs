@@ -3,9 +3,15 @@ mod string;
 mod tuples;
 mod user;
 mod type_casting;
+mod enums;
 fn main() {
-    type_casting::type_cast();
+    enums::days_of_week();
 }
+// *************************
+// *** Filename: tuples.rs *
+// *************************
+// type_casting::type_cast();
+
 // *************************
 // *** Filename: tuples.rs *
 // *************************
