@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 // vectors are arrays that can grow or shrink in size if mutable
 // vectors can only store values of the same type
 pub fn vectors() {

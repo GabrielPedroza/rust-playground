@@ -5,13 +5,21 @@ mod user;
 mod type_casting;
 mod enums;
 mod vectors;
+mod functions;
 fn main() {
-    vectors::vectors();
+    functions::functions();
 }
+
 // *************************
 // *** Filename: enums.rs  *
 // *************************
 // enums::days_of_week();
+
+// *************************
+// *** Filename: vectors.rs  *
+// *************************
+// vectors::vectors();
+
 
 // *************************
 // *** Filename: type_casting.rs
