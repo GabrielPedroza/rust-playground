@@ -4,16 +4,22 @@ mod tuples;
 mod user;
 mod type_casting;
 mod enums;
+mod vectors;
 fn main() {
-    enums::days_of_week();
+    vectors::vectors();
 }
 // *************************
-// *** Filename: tuples.rs *
+// *** Filename: enums.rs  *
+// *************************
+// enums::days_of_week();
+
+// *************************
+// *** Filename: type_casting.rs
 // *************************
 // type_casting::type_cast();
 
 // *************************
-// *** Filename: tuples.rs *
+// *** Filename: string.rs *
 // *************************
 // string::string();
 

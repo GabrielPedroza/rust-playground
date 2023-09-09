@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn string() {
     let str = String::from("A B C D E F G H J J GABE");
 

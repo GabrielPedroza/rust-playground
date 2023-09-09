@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn type_cast() {
     let int_u8 = 15;
     let int_u8_2 = 255;

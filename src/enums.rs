@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn days_of_week() {
     enum Day {
         Monday,
