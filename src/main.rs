@@ -11,6 +11,11 @@ fn main() {
 }
 
 // *************************
+// *************************
+// *** Filename: functions.rs  *
+// *************************
+// functions::functions();
+
 // *** Filename: enums.rs  *
 // *************************
 // enums::days_of_week();
