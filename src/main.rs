@@ -6,11 +6,16 @@ mod type_casting;
 mod enums;
 mod vectors;
 mod functions;
+mod hashmap;
 fn main() {
-    functions::functions();
+    hashmap::hashmap();
 }
 
 // *************************
+// *** Filename: hashmap.rs  *
+// *************************
+// hashmap::hashmap();
+
 // *************************
 // *** Filename: functions.rs  *
 // *************************
