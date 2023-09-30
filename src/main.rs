@@ -7,9 +7,18 @@ mod enums;
 mod vectors;
 mod functions;
 mod hashmap;
+mod traits;
+
+mod restaurant;
+use crate::restaurant::order_food;
 fn main() {
-    hashmap::hashmap();
+    order_food();
 }
+
+// *************************
+// *** Filename: traits.rs  *
+// *************************
+// traits::traits();
 
 // *************************
 // *** Filename: hashmap.rs  *
