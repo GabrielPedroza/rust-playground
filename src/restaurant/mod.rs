@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub mod pizza_order {
     pub struct Pizza {
         pub dough: String,
