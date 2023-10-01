@@ -9,12 +9,18 @@ mod functions;
 mod hashmap;
 mod traits;
 mod err_handling;
+mod iterators;
 
 mod restaurant;
 // use crate::restaurant::order_food;
 fn main() {
-    err_handling::err_handling();
+    iterators::iters();
 }
+
+// *************************
+// *** Filename: traits.rs  *
+// *************************
+// err_handling::err_handling();
 
 // *************************
 // *** Filename: traits.rs  *
