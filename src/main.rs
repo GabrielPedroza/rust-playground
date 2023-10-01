@@ -14,8 +14,12 @@ mod iterators;
 mod restaurant;
 // use crate::restaurant::order_food;
 fn main() {
-    iterators::iters();
 }
+
+// *************************
+// *** Filename: iterators.rs  *
+// *************************
+// iterators::iters();
 
 // *************************
 // *** Filename: err_handling.rs  *

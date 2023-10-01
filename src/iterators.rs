@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn iters() {
     let arr = [1, 2, 3 ,4 ,5];
 
