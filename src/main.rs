@@ -8,12 +8,18 @@ mod vectors;
 mod functions;
 mod hashmap;
 mod traits;
+mod err_handling;
 
 mod restaurant;
-use crate::restaurant::order_food;
+// use crate::restaurant::order_food;
 fn main() {
-    order_food();
+    err_handling::err_handling();
 }
+
+// *************************
+// *** Filename: traits.rs  *
+// *************************
+// order_food();
 
 // *************************
 // *** Filename: traits.rs  *
