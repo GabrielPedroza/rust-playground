@@ -10,10 +10,12 @@ mod hashmap;
 mod traits;
 mod err_handling;
 mod iterators;
+mod closures;
 
 mod restaurant;
 // use crate::restaurant::order_food;
 fn main() {
+    closures::closures();
 }
 
 // *************************
