@@ -18,7 +18,7 @@ fn main() {
 }
 
 // *************************
-// *** Filename: traits.rs  *
+// *** Filename: err_handling.rs  *
 // *************************
 // err_handling::err_handling();
 
