@@ -12,12 +12,18 @@ mod err_handling;
 mod iterators;
 mod closures;
 mod boxes;
+mod threads;
 
 mod restaurant;
 // use crate::restaurant::order_food;
 fn main() {
-    boxes::boxes();
+    threads::threads();
 }
+
+// *************************
+// *** Filename: boxes.rs  *
+// *************************
+// boxes::boxes();
 
 // *************************
 // *** Filename: closures.rs  *
